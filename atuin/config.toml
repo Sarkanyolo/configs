@@ -124,20 +124,28 @@ strip_trailing_whitespace = true
 ## For details on the supported regular expression syntax, see
 ## https://docs.rs/regex/latest/regex/#syntax
 history_filter = [
-  "^pacman ",
-  "^sudo pacman ",
-  "^paru ",
-  "^pkill ",
+  "^btop",
+  "^cat ",
+  "^df ",
+  "^du ",
+  "^flatpak install ",
+  "^free ",
+  "^git init ",
+  "^git clone ",
+  "^iotop",
   "^ls ",
   "^mc ",
-  "^cat ",
-  "^btop",
-  "^top",
-  "^uptime",
-  "^uname",
-  "^iotop",
+  "^pacdiff",
+  "^pacman ",
+  "^paru ",
+  "^pkill ",
   "^py",
+  "^sudo dmesg ",
+  "^sudo pacman -S ",
   "^sudo reboot",
+  "^top",
+  "^uname",
+  "^uptime",
 ]
 
 store_failed = false
