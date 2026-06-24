@@ -19,4 +19,6 @@ kate ~/.config/fish/config.fish
 sudo virsh net-start default
 --needed neovim git make gcc ripgrep fd unzip rust-analyzer python-lsp-server typescript-language-server ruff wl-clipboard biome nodejs npm basedpyright python-debugpy lldb
 firefox setup: https://hup.hu/node/189970
-lazygit, atuin
+atuin, ghostty
+proton-cachyos-slr
+logrotate 50MB

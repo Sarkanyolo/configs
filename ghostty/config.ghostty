@@ -1,0 +1,32 @@
+# ~/.config/ghostty/config.ghostty
+
+# Font
+font-family = FiraCode Nerd Font
+font-size = 10
+font-feature = calt
+
+# Rendering / compatibility
+alpha-blending = linear-corrected
+grapheme-width-method = legacy
+
+# Optional tuning for FiraCode if icons/lines feel slightly cramped
+adjust-cell-height = 0
+adjust-cell-width = 0
+adjust-icon-height = 0
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #fcfcfc
+cursor-text = #232629
+
+# Mouse / UX
+mouse-hide-while-typing = true
+selection-foreground = #232629
+selection-background = #3daee9
+selection-clear-on-copy = false
+
+# Scroll behavior
+scroll-to-bottom = keystroke,no-output
+
+

@@ -1,0 +1,7 @@
+ai.jan.Jan
+com.calibre_ebook.calibre
+com.protonvpn.www
+io.github.shiftey.Desktop
+net.ankiweb.Anki
+org.gimp.GIMP
+org.jdownloader.JDownloader

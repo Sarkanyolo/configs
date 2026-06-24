@@ -5,7 +5,6 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-studio
-antigravity
 ark
 atuin
 awesome-terminal-fonts
@@ -13,7 +12,6 @@ base
 base-devel
 bash-completion
 bind
-biome
 bluedevil
 bluez
 bluez-hid2hci
@@ -62,6 +60,7 @@ duf
 e2fsprogs
 efibootmgr
 efitools
+espeak-ng
 ethtool
 exfatprogs
 f2fs-tools
@@ -80,8 +79,10 @@ foomatic-db-ppds
 fsarchiver
 fwupd
 ghostscript
+ghostty
 git
 glances
+go
 grub
 grub-btrfs-support
 grub-hook
@@ -94,6 +95,7 @@ gst-plugins-ugly
 gutenprint
 gwenview
 hdparm
+heroic-games-launcher-bin
 hwdetect
 hwinfo
 inetutils
@@ -111,7 +113,6 @@ kdialog
 kinfocenter
 kio-admin
 konsole
-krusader
 kscreen
 kwallet-pam
 kwalletmanager
@@ -143,7 +144,6 @@ mesa-utils
 micro
 mkinitcpio
 modemmanager
-mpv
 mtools
 nano-syntax-highlighting
 neovim
@@ -160,6 +160,7 @@ npm
 nss-mdns
 okular
 opencl-mesa
+opencode
 openssh
 os-prober
 pacman-contrib
@@ -186,7 +187,6 @@ poppler-glib
 power-profiles-daemon
 powerdevil
 profile-sync-daemon
-proton-cachyos
 pv
 pyright
 python
@@ -216,7 +216,9 @@ sweethome3d
 swtpm
 sysfsutils
 system-config-printer
+tesseract-data-hun
 texinfo
+tree-sitter-cli
 ttf-bitstream-vera
 ttf-dejavu
 ttf-firacode-nerd
@@ -234,6 +236,8 @@ usb_modeswitch
 usbutils
 virt-manager
 visual-studio-code-bin
+vlc
+vlc-plugins-all
 vulkan-radeon
 wget
 which

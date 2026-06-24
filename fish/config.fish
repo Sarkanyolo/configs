@@ -19,3 +19,4 @@ alias md='mkdir -p'
 alias df='df -h'
 alias free='free -h'
 alias ports='ss -tulpn'
+
