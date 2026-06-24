@@ -20,3 +20,6 @@ alias df='df -h'
 alias free='free -h'
 alias ports='ss -tulpn'
 
+set -gx EDITOR nvim
+set -gx VISUAL nvim
+set -gx SUDO_EDITOR nvim
