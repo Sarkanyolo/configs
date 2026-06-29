@@ -1,0 +1,24 @@
+theme = "snazzy"
+
+[editor]
+mouse = false
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = false
+
+[keys.normal]
+y = [":clipboard-yank", "yank"]
+P = ":clipboard-paste-after"
+p = ":clipboard-paste-before"
+
+[keys.select]
+y = [":clipboard-yank", "yank"]
+P = ":clipboard-paste-after"
+p = ":clipboard-paste-before"
+
