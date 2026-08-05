@@ -1,6 +1,8 @@
 ai.jan.Jan
 com.calibre_ebook.calibre
+com.github.unrud.VideoDownloader
 com.protonvpn.www
+io.github.CyberTimon.RapidRAW 
 io.github.shiftey.Desktop
 net.ankiweb.Anki
 org.gimp.GIMP

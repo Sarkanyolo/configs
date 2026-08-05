@@ -5,10 +5,11 @@ set --universal fish_history null
 
 # overwrite greeting
 # potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
+function fish_greeting
+    # smth smth
+end
 
+alias hx='helix'
 alias rg='rg --smart-case'
 alias rgh='rg --smart-case --hidden'
 alias rgall='rg --smart-case --hidden --no-ignore'
@@ -20,6 +21,14 @@ alias df='df -h'
 alias free='free -h'
 alias ports='ss -tulpn'
 
-set -gx EDITOR nvim
-set -gx VISUAL nvim
-set -gx SUDO_EDITOR nvim
+set -gx EDITOR helix
+set -gx VISUAL helix
+set -gx SUDO_EDITOR helix
+set -gx BROWSER firefox
+set -gx PAGER less
+set -gx EXPO_EDITOR code
+set -gx ANDROID_SDK_ROOT /data/fejleszt/android
+fish_add_path $ANDROID_SDK_ROOOT/emulator
+fish_add_path $ANDROID_SDK_ROOT/platform-tools
+fish_add_path $ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+fish_add_path ~/.local/bin ~/bin ~/.cargo/bin

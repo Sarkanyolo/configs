@@ -1,4 +1,4 @@
-theme = "snazzy"
+theme = "tokyonight"
 
 [editor]
 mouse = false
@@ -10,7 +10,7 @@ normal = "block"
 select = "underline"
 
 [editor.lsp]
-display-inlay-hints = false
+display-inlay-hints = true
 
 [keys.normal]
 y = [":clipboard-yank", "yank"]
