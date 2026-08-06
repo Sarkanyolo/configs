@@ -2,7 +2,9 @@
 
 require("config.animations")
 require("config.autostart")
+require("config.autogaps")
 require("config.decorations")
+require("config.environment")
 require("config.variables")
 require("config.inputs")
 require("config.binds")
