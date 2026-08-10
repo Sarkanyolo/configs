@@ -2,7 +2,7 @@
 -- (dwindle:no_gaps_when_only was removed, so this replicates it via events)
 
 local GAPS_OUT_SINGLE   = 0
-local GAPS_OUT_DEFAULT  = 5 -- must match general.gaps_out in decorations.lua
+local GAPS_OUT_DEFAULT  = 0 -- must match general.gaps_out in decorations.lua
 
 local BORDER_SINGLE  = 0
 local BORDER_DEFAULT = 2 -- must match general.border_size in decorations.lua
