@@ -14,6 +14,10 @@ hl.bind(mainMod .. " + D",           hl.dsp.window.fullscreen({ mode = 1 }))
 hl.bind(mainMod .. " + G",           hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + J",           hl.dsp.layout("togglesplit"))
 
+-- Special workspace (scratchpad)
+hl.bind(mainMod .. " + CONTROL + S", hl.dsp.workspace.toggle_special())
+hl.bind(mainMod .. " + S",           hl.dsp.window.move({ workspace = "special", silent = true }))
+
 -- Change focus
 hl.bind(mainMod .. " + Left",  hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + Right", hl.dsp.focus({ direction = "right" }))
